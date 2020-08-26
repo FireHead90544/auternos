@@ -43,7 +43,7 @@ Change 'token' in `client.run('token')` to your bot token.
 
 #### Running
 
-Install the latest python (I am using 3.8.5) from  https://python.org/
+Install the latest python (I am using 3.8.3) from  https://python.org/
 
 Install the dependencies `python -m pip install discord.py selenium webdriver-manager`
 
