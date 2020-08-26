@@ -10,7 +10,7 @@ I set this up using [ungoogled-chromium](https://ungoogled-software.github.io/un
 
 This script kills any instance of Chromium (or if you're on Windows, it kills 'chrome.exe', so Chrome / Chromium will get killed) at the end of it. Solution: Either rewrite the portion of this script that kills Chrome / Chromium (and maybe submit a pull request too?), or use Firefox (chad browser tbh) like me.
 
-Chromium-based browsers require [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for this script to work. make sure you have that properly set up.
+Chromium-based browsers require [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for this script to work. Make sure you have that properly set up.
 
 ## Really the guide now
 
