@@ -7,7 +7,7 @@ driver = webdriver.Chrome('/path/to/bin/chromedriver')
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument("--test-type")
-options.binary_location = "/path/to/bin/chrome"
+options.binary_location = "/path/to/bin/chromium"
 driver = webdriver.Chrome(options=options)
 driver.get('https://aternos.org/servers/')
 
