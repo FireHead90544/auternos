@@ -3,6 +3,9 @@ Automate starting of Aternos Minecraft servers with a Discord bot.
 
 ***Warning:*** **This is dumb as shit. You put your Aternos login info into a plaintext python script. I will look into making it more intiutive, but for now it's kinda a poop thing I use for my friends and I.**
 
+#### Video Demonstration:
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2061%;"><iframe src="https://streamable.com/o/2s87xi" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+
 # Guide
 A couple of notes before we start:
 
