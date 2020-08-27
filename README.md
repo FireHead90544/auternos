@@ -13,7 +13,7 @@ A couple of notes before we start:
 
 I set this up using [ungoogled-chromium](https://ungoogled-software.github.io/ungoogled-chromium-binaries/), simply because the binaries were easily available to me.
 
-This script kills any instance of Chromium (or if you're on Windows, it kills 'chrome.exe', so Chrome / Chromium will get killed) at the end of it. Solution: Either rewrite the portion of this script that kills Chrome / Chromium (and maybe submit a pull request too?), or use Firefox (chad browser tbh) like me.
+This script kills any instance of Chromium (or if you're on Windows, it kills 'chrome.exe', so Chrome / Chromium will get killed) at the end of it. Solution: Either rewrite the portion of this script that kills Chrome / Chromium (and maybe submit a pull request too?), or use Firefox (chad browser tbh) like me. Edit: idk might swap to PhantomJS, we'll see.
 
 Chromium-based browsers require [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for this script to work. Make sure you have that properly set up. macOS users can do 
 `brew cask install chromedriver` via [brew](https://brew.sh/).
