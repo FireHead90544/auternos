@@ -39,7 +39,7 @@ For Linux ~~(and I think macOS??? Honestly, I have no clue.)~~, it should work, 
 
 For Windows, change `os.system("killall chromium")` to `os.system("taskkill /f /im chrome.exe")`, and it will kill all Chromium / Chrome processes.
 
-For macOS, change `os.system("killall chromium")` to whatever the process is named. For example" `os.system('killall "Google Chrome')` for normal Chrome, and probably something similar for Chromium.
+For macOS, change `os.system("killall chromium")` to whatever the process is named. For example" `os.system('killall "Google Chrome"')` for normal Chrome, and probably something similar for Chromium.
 
 Remove this line if you do not want to kill any processes.
 
