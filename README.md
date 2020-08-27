@@ -41,6 +41,8 @@ For Windows, change `os.system("killall chromium")` to `os.system("taskkill /f /
 
 For macOS, change `os.system("killall chromium")` to whatever the process is named. For example" `os.system('killall "Google Chrome"')` for normal Chrome, and probably something similar for Chromium.
 
+For FreeBSD, take a rock, and shove it far up your ass.
+
 Remove this line if you do not want to kill any processes.
 
 #### Open bot.py in your text editor.
