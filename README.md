@@ -49,7 +49,7 @@ Remove this line if you do not want to kill any processes.
 
 You will need to create a Discord bot at https://discord.com/developers/applications. Generate a token (*Not* Client ID or Client Secret), and copy it.
 
-Change 'token' in `client.run('token')` to your bot token.
+Change "token" in `client.run('token')` to your bot token.
 
 #### Running
 
