@@ -1,7 +1,7 @@
 # Auternos
 Automate starting of Aternos Minecraft servers with a Discord bot.
 
-***Warning:*** **This is dumb as shit. You put your Aternos login info into a plaintext python script. I will look into making it more intiutive, but for now it's kinda a poop thing I use for my friends and I.**
+***Warning:*** **This is really dumb. You put your Aternos login info into a plaintext python script. I will look into making it more intiutive, but for now it's kinda a poop thing I use for my friends and I.**
 
 #### Video Demonstration:
 ![Demonstration](https://i.imgur.com/uloHx0k.gif)
@@ -23,7 +23,7 @@ Chromium-based browsers require [chromedriver](https://sites.google.com/a/chromi
 Download the repo either from https://github.com/hipeopeo/auternos/archive/master.zip, or
 `git clone https://github.com/hipeopeo/auternos`
 
-#### Open auternos.py in your text editor (Windows users, don't use Notepad. It will cringe the files. I suggest [Notepad++](https://notepad-plus-plus.org/) instead.)
+#### Open auternos.py in your text editor (Windows users, don't use Notepad. It will mess up the files. I suggest [Notepad++](https://notepad-plus-plus.org/) instead.)
 
 Change `driver = webdriver.Chrome('/path/to/bin/chromedriver')` to wherever you put chromedriver. For example, if you use Windows, and put 'chromedriver.exe' in your Documents, the path would be 'C:\Users\User\Documents\chromedriver.exe'.
 
@@ -35,13 +35,11 @@ Change 'password' in `text_area.send_keys("password")` to your Aternos password.
 
 This next step depends on what OS you are running, and what browser you chose.
 
-For Linux ~~(and I think macOS??? Honestly, I have no clue.)~~, it should work, and kill all Chromium processes.
+For Linux, it should work, and kill all Chromium processes.
 
 For Windows, change `os.system("killall chromium")` to `os.system("taskkill /f /im chrome.exe")`, and it will kill all Chromium / Chrome processes.
 
 For macOS, change `os.system("killall chromium")` to whatever the process is named. For example" `os.system('killall "Google Chrome"')` for normal Chrome, and probably something similar for Chromium.
-
-For FreeBSD, take a rock, and shove it far up your ass.
 
 Remove this line if you do not want to kill any processes.
 
